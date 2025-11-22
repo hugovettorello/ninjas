@@ -1,0 +1,14 @@
+package Intermediario.Construtores;
+
+public class Hokages {
+    String nome;
+    int idade;
+    Boolean vivoOuNao;
+
+
+    public Hokages(String nome, int idade, Boolean vivoOuNao) {
+        this.nome = nome;
+        this.idade = idade;
+        this.vivoOuNao = vivoOuNao;
+    }
+}
